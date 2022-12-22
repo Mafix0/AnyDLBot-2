@@ -2,15 +2,15 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5869464417:AAGQ9mV14ojCDQptrDorKJs2nx6-tmr2C2A")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", "13384432"))
+    API_HASH = os.environ.get("API_HASH","ea9db4503ed7088b788e06dfd818e00e")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1504797855").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
@@ -33,15 +33,15 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 100000
     # watermark file
-    DEF_WATER_MARK_FILE = "© @TheTeleRoid"
-    SHORT_LINK_API_URL = os.environ.get("SHORT_LINK_API_URL", "https://za.gl/api")
+    DEF_WATER_MARK_FILE = "© @KR_BOTZ"
+    SHORT_LINK_API_URL = os.environ.get("SHORT_LINK_API_URL", "")
     SHORT_LINK_API_KEY = os.environ.get("SHORT_LINK_API_KEY", "")
     IS_TEAM_DRIVE = os.environ.get("IS_TEAM_DRIVE", False)
     USE_SERVICE_ACCOUNTS = os.environ.get("USE_SERVICE_ACCOUNTS", False)
-    INDEX_URL = os.environ.get("INDEX_URL", "https://m.tortoolkit.workers.dev/0:")
-    parent_id = os.environ.get("GDRIVE_FOLDER_ID","")
+    INDEX_URL = os.environ.get("INDEX_URL", "https://tamildub.fundub.workers.dev/0:")
+    parent_id = os.environ.get("GDRIVE_FOLDER_ID","0AM0Z2PEI2gZvUk9PVA")
     STRIP_FILE_NAMES = os.environ.get("STRIP_FILE_NAMES","www.1TamilMV.life - |www.1TamilMV.life -|www.1TamilMV.org - |www.1TamilMV.org -|www.1TamilMV.xyz - |www.1TamilMV.xyz -|@MoviesFlixers_DL|@TellyFun_Official|[MM].|[MM]|[MM] -|www_Telugupalaka_com|@MM_New|@MM_Links|@MM_Linkz|www.TamilRockers.ws -|@Animationmovies|HT_BEATS_|-@lubokvideo|@lubokvideo|@english_movieschannel_|@english_movieschannel|@themovies_channel_|@themovies_channel|@telugu_bluray|@TVshows_HD|[Movies Vip]|[CC].|[CC]|@CC_Links.|@CC_Links|@CC_x265.|@CC_x265|@CC.|@CC|@CC_ALL|@CPR_|@CPR|Moviez_India.|Moviez_India")
-    CHANNEL_URL = "@TeleRoidGroup\n@TeleRoid14"
+    CHANNEL_URL = "@KR_BOTZ\n@KR_JOIN"
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://SK:SK@cluster0.uxvds.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     
