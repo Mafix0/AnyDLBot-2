@@ -2,15 +2,15 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5869464417:AAGQ9mV14ojCDQptrDorKJs2nx6-tmr2C2A")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6396672577:AAFZlY6Gi17e_AlqnaRYmk3YS5gYsFLYa68")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", "13384432"))
-    API_HASH = os.environ.get("API_HASH","ea9db4503ed7088b788e06dfd818e00e")
+    APP_ID = int(os.environ.get("APP_ID", "26489380"))
+    API_HASH = os.environ.get("API_HASH","4167d8b8779aab33b73810feb3c77021")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1504797855").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "932420516").split())
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     # Telegram maximum file upload size
@@ -43,5 +43,5 @@ class Config(object):
     STRIP_FILE_NAMES = os.environ.get("STRIP_FILE_NAMES","www.1TamilMV.life - |www.1TamilMV.life -|www.1TamilMV.org - |www.1TamilMV.org -|www.1TamilMV.xyz - |www.1TamilMV.xyz -|@MoviesFlixers_DL|@TellyFun_Official|[MM].|[MM]|[MM] -|www_Telugupalaka_com|@MM_New|@MM_Links|@MM_Linkz|www.TamilRockers.ws -|@Animationmovies|HT_BEATS_|-@lubokvideo|@lubokvideo|@english_movieschannel_|@english_movieschannel|@themovies_channel_|@themovies_channel|@telugu_bluray|@TVshows_HD|[Movies Vip]|[CC].|[CC]|@CC_Links.|@CC_Links|@CC_x265.|@CC_x265|@CC.|@CC|@CC_ALL|@CPR_|@CPR|Moviez_India.|Moviez_India")
     CHANNEL_URL = "@KR_BOTZ\n@KR_JOIN"
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://SK:SK@cluster0.uxvds.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://UploadBot:Aail7172@cluster0.bjeypjj.mongodb.net/?retryWrites=true&w=majority")
     
